@@ -23,18 +23,8 @@ A simple menu-driven calculator that performs basic arithmetic operations.
 - Handles division by zero gracefully
 - Clean menu interface
 
-**Sample Run:**
-```
-______________________________Calculator Menu________________________________
-1. Addition(+)
-2. Subtraction(-)
-3. Multiplication(*)
-4. Division(/)
-Enter your choice(1-4): 1
-Number one: 12.5
-Number two: 7.3
-Result: 12.50+7.30=19.80
-```
+#### 📸 Terminal Output Screenshot
+![CALCI Output](screenshots/CALCI_output.jpg)
 
 ---
 
@@ -56,33 +46,8 @@ A console-based ATM simulation with PIN authentication and account management.
 - `switch` statement handles all menu choices
 - Full input validation for deposits and withdrawals
 
-**Sample Run:**
-```
-===== WELCOME TO ATM =====
-Enter your PIN: 1234
-Login Successful!
-
-===== ATM MENU =====
-1. Check Balance
-2. Deposit Money
-3. Withdraw Money
-4. Exit
-Enter your choice: 1
-Your Balance: Rs. 5000.00
-
-Enter your choice: 2
-Enter deposit amount: 1500
-Money Deposited Successfully!
-New Balance: Rs. 6500.00
-
-Enter your choice: 3
-Enter withdrawal amount: 2000
-Please Collect Your Cash.
-Remaining Balance: Rs. 4500.00
-
-Enter your choice: 4
-Thank You for Using ATM!
-```
+#### 📸 Terminal Output Screenshot
+![ATM Output](screenshots/ATM_output.jpg)
 
 ---
 
