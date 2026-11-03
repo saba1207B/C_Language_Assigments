@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="790" viewBox="0 0 1060 790" role="img" aria-labelledby="title desc">
+  <title id="title">Student database program terminal output</title>
+  <desc id="desc">Illustrative terminal session entering two student records and displaying their details.</desc>
+  <rect width="1060" height="790" rx="18" fill="#0d1117"/>
+  <path d="M18 0h1024a18 18 0 0 1 18 18v48H0V18A18 18 0 0 1 18 0Z" fill="#21262d"/>
+  <circle cx="30" cy="33" r="8" fill="#ff5f56"/>
+  <circle cx="56" cy="33" r="8" fill="#ffbd2e"/>
+  <circle cx="82" cy="33" r="8" fill="#27c93f"/>
+  <text x="530" y="39" text-anchor="middle" fill="#c9d1d9" font-family="Arial, sans-serif" font-size="17">student_database.c — sample run</text>
+  <g fill="#d1d5da" font-family="Consolas, 'Courier New', monospace" font-size="19">
+    <text x="34" y="108">Enter the Student Count: 2</text>
+    <text x="34" y="153" fill="#79c0ff">--- Enter details for Student 1 ---</text>
+    <text x="34" y="188">Roll Number: 101</text>
+    <text x="34" y="223">Name: Ananya</text>
+    <text x="34" y="258">Cut-off: 189.5</text>
+    <text x="34" y="293">City: Chennai</text>
+    <text x="34" y="328">Dream: Engineer</text>
+    <text x="34" y="373" fill="#79c0ff">--- Enter details for Student 2 ---</text>
+    <text x="34" y="408">Roll Number: 102</text>
+    <text x="34" y="443">Name: Rahul</text>
+    <text x="34" y="478">Cut-off: 176.25</text>
+    <text x="34" y="513">City: Madurai</text>
+    <text x="34" y="548">Dream: Doctor</text>
+    <text x="34" y="593" fill="#8b949e">-------------------------------- Student Details -------------------------------</text>
+    <text x="34" y="628" fill="#79c0ff">Student 1:</text>
+    <text x="54" y="658">Roll Number : 101</text>
+    <text x="54" y="688">Name        : Ananya</text>
+    <text x="54" y="718">Cut-off     : 189.50</text>
+    <text x="54" y="748">City        : Chennai</text>
+  </g>
+  <rect x="530" y="607" width="500" height="150" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="552" y="636" fill="#79c0ff" font-family="Consolas, 'Courier New', monospace" font-size="18">Student 2:</text>
+  <g fill="#d1d5da" font-family="Consolas, 'Courier New', monospace" font-size="17">
+    <text x="552" y="665">Roll Number : 102</text>
+    <text x="552" y="693">Name        : Rahul</text>
+    <text x="552" y="721">Cut-off     : 176.25</text>
+    <text x="552" y="749">City        : Madurai</text>
+  </g>
+  <text x="34" y="775" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">Sample output illustration; the program also prints each student's Dream field after City.</text>
+</svg>

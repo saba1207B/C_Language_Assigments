@@ -51,9 +51,35 @@ A console-based ATM simulation with PIN authentication and account management.
 
 ---
 
+### 3. 🎓 student_database.c — Student Database
+
+A console program that collects and displays details for a group of students. Each record contains a roll number, name, cut-off score, city, and dream/goal.
+
+**Features:**
+| Field | Description |
+|-------|-------------|
+| Roll Number | Student's integer identifier |
+| Name | Student's name |
+| Cut-off | Student's cut-off score, displayed to two decimal places |
+| City | Student's city |
+| Dream | Student's stated dream or goal |
+
+**Highlights:**
+- Accepts a student count and gathers the five fields for each student
+- Stores records in an array of `struct student` (maximum capacity: 100)
+- Uses separate input and display functions
+- Prints all entered records in a readable format
+
+> **Note:** This program displays the records entered during the current run; it does not save them to a file. The source currently uses `conio.h` (`clrscr()` and `getch()`), so it requires a Turbo C/Borland-compatible environment unless those legacy console calls are replaced for your compiler.
+
+#### 📸 Terminal Output Screenshot
+![Student Database Output](screenshots/student_database_output.svg)
+
+---
+
 ## 🛠️ How to Compile & Run
 
-Make sure you have **GCC** installed.
+Make sure you have **GCC** installed for the Calculator and ATM programs.
 
 ```bash
 # Calculator
@@ -65,7 +91,9 @@ gcc atm.c -o atm
 ./atm
 ```
 
-> **Windows users:** Use [MinGW](https://www.mingw-w64.org/) or [TDM-GCC](https://jmeubank.github.io/tdm-gcc/) and run via Command Prompt or PowerShell.
+`student_database.c` uses legacy `conio.h` functions and is not directly compatible with standard GCC. Run it in Turbo C/Borland C, or replace `clrscr()`/`getch()` and remove the `conio.h` include before compiling with GCC.
+
+> **Windows users:** Use [MinGW](https://www.mingw-w64.org/) or [TDM-GCC](https://jmeubank.github.io/tdm-gcc/) for the programs compatible with GCC.
 
 ---
 
@@ -76,6 +104,7 @@ gcc atm.c -o atm
 - `switch-case` for menu handling
 - `do-while` loop
 - Data types: `int`, `float`, `double`
+- Structures, arrays, and functions
 - Input validation & error handling
 
 ---
