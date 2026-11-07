@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
+  <title id="title">Feedback Program Output</title>
+  <desc id="desc">A Windows terminal showing the feedback file creation, append, and read operations.</desc>
+  <rect width="1376" height="768" fill="#000"/>
+  <rect x="2" y="2" width="1372" height="40" fill="#f0f0f0"/>
+  <rect x="28" y="14" width="14" height="14" fill="#111"/>
+  <path d="M31 17h8v2h-2.5l-2.8 3.1h5.5v2h-8l3.3-3.9H31z" fill="#f0f0f0"/>
+  <text x="56" y="29" fill="#111" font-family="Arial,sans-serif" font-size="18" font-weight="600">D:\C_Language_Projects\FEEDBACK.exe</text>
+  <g fill="#f0f0f0"><rect x="1256" y="2" width="38" height="40"/><rect x="1296" y="2" width="38" height="40"/><rect x="1336" y="2" width="38" height="40"/></g>
+  <path d="M1269 22h12M1308 13h13v17h-13zM1348 13h13M1348 30h13" fill="none" stroke="#222" stroke-width="1.5"/>
+  <rect x="1336" y="2" width="40" height="40" fill="#e81123"/><path d="m1350 12 12 20m0-20-12 20" stroke="#fff" stroke-width="1.5"/>
+  <g font-family="Consolas,'Courier New',monospace" font-size="20" fill="#f2f2f2">
+    <text x="2" y="72">C:\Users\Saba&gt;FEEDBACK.exe</text>
+    <text x="2" y="108" fill="#20d020">File created successfully.</text>
+    <text x="2" y="144" fill="#20d020">File appended successfully.</text>
+    <text x="2" y="196">File contents:</text>
+    <text x="2" y="232">FEEDBACK ABOUT C PROGRAMMING CLASSES:</text>
+    <text x="2" y="268">1.The classes are really interesting when it comes to labs and project sessions.</text>
+    <text x="2" y="304">2.The exam questions are also easy to attend.</text>
+    <text x="2" y="340">3.The instructor was very kind and polite at teaching.</text>
+    <text x="2" y="376">4.But in class hours ,at some point it makes me feel sleepy and boring.</text>
+    <text x="2" y="412">5.Overall ,it was really a good experience.</text>
+    <text x="2" y="468"> Press any key to exit....</text>
+  </g>
+</svg>

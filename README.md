@@ -77,6 +77,23 @@ A console program that collects and displays details for a group of students. Ea
 
 ---
 
+### 4. 📝 FEEDBACK.C — Feedback File Program
+
+A file-handling program that creates a feedback file, appends feedback about C programming classes, and reads the saved contents back to the terminal.
+
+**Highlights:**
+- Creates `feedback.txt` and writes an initial heading
+- Appends five feedback statements to the file
+- Reads and displays the complete file contents
+- Uses `fopen`, `fprintf`, `fgets`, and `fclose`
+
+> **Note:** This program uses `conio.h`, `clrscr()`, and `getch()`, so it requires a Turbo C/Borland-compatible environment unless those legacy console calls are replaced.
+
+#### 📸 Terminal Output Screenshot
+![Feedback Output](screenshots/FEEDBACK_output.svg)
+
+---
+
 ## 🛠️ How to Compile & Run
 
 Make sure you have **GCC** installed for the Calculator and ATM programs.
@@ -91,7 +108,7 @@ gcc atm.c -o atm
 ./atm
 ```
 
-`student_database.c` uses legacy `conio.h` functions and is not directly compatible with standard GCC. Run it in Turbo C/Borland C, or replace `clrscr()`/`getch()` and remove the `conio.h` include before compiling with GCC.
+`student_database.c` and `FEEDBACK.C` use legacy `conio.h` functions and are not directly compatible with standard GCC. Run them in Turbo C/Borland C, or replace `clrscr()`/`getch()` and remove the `conio.h` include before compiling with GCC.
 
 > **Windows users:** Use [MinGW](https://www.mingw-w64.org/) or [TDM-GCC](https://jmeubank.github.io/tdm-gcc/) for the programs compatible with GCC.
 
@@ -105,6 +122,7 @@ gcc atm.c -o atm
 - `do-while` loop
 - Data types: `int`, `float`, `double`
 - Structures, arrays, and functions
+- File handling with `fopen`, `fprintf`, `fgets`, and `fclose`
 - Input validation & error handling
 
 ---
