@@ -1,48 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="820" viewBox="0 0 1140 820" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
   <title id="title">Student Database Output in Windows Command Prompt Style</title>
   <desc id="desc">A classic Windows Command Prompt window showing the student database program output.</desc>
-  <rect width="1140" height="820" fill="#d9d9d9"/>
-  <rect x="18" y="18" width="1104" height="784" fill="#000000" stroke="#9f9f9f" stroke-width="2"/>
-  <rect x="20" y="20" width="1100" height="34" fill="#f0f0f0"/>
+  <rect width="1376" height="768" fill="#d9d9d9"/>
+  <rect x="0" y="0" width="1376" height="768" fill="#000000" stroke="#9f9f9f" stroke-width="2"/>
+  <rect x="2" y="2" width="1372" height="40" fill="#f0f0f0"/>
   <rect x="28" y="28" width="14" height="14" fill="#111111"/>
   <path d="M31 31h8v2h-2.5l-2.8 3.1h5.5v2h-8l3.3-3.9H31z" fill="#f0f0f0"/>
-  <text x="56" y="42" fill="#111111" font-family="Arial, sans-serif" font-size="18" font-weight="600">Command Prompt</text>
+  <text x="56" y="29" fill="#111111" font-family="Arial, sans-serif" font-size="18" font-weight="600">D:\C_Language_Projects\student_database.exe</text>
   <g fill="#f0f0f0">
-    <rect x="1000" y="20" width="38" height="34"/>
-    <rect x="1040" y="20" width="38" height="34"/>
-    <rect x="1080" y="20" width="38" height="34"/>
+    <rect x="1256" y="2" width="38" height="40"/>
+    <rect x="1296" y="2" width="38" height="40"/>
+    <rect x="1336" y="2" width="38" height="40"/>
   </g>
-  <path d="M1013 37h12M1052 31h13v11h-13zM1092 31h13M1092 42h13" fill="none" stroke="#222222" stroke-width="1.5"/>
-  <rect x="1080" y="20" width="40" height="34" fill="#e81123"/>
-  <path d="m1094 30 12 14m0-14-12 14" stroke="#ffffff" stroke-width="1.5"/>
-  <rect x="20" y="54" width="1100" height="740" fill="#000000"/>
-  <g fill="#f2f2f2" font-family="Consolas, 'Courier New', monospace" font-size="18">
-    <text x="34" y="91">C:\Users\Saba&gt;student_database.exe</text>
-    <text x="34" y="124">Enter the Student Count: 2</text>
-    <text x="34" y="164">--- Enter details for Student 1 ---</text>
-    <text x="34" y="197">Roll Number: 101</text>
-    <text x="34" y="230">Name: Ananya</text>
-    <text x="34" y="263">Cut-off: 189.50</text>
-    <text x="34" y="296">City: Chennai</text>
-    <text x="34" y="329">Dream: Engineer</text>
-    <text x="34" y="369">--- Enter details for Student 2 ---</text>
-    <text x="34" y="402">Roll Number: 102</text>
-    <text x="34" y="435">Name: Rahul</text>
-    <text x="34" y="468">Cut-off: 176.25</text>
-    <text x="34" y="501">City: Madurai</text>
-    <text x="34" y="534">Dream: Doctor</text>
-    <text x="34" y="579">-------------------------------- Student Details -------------------------------</text>
-    <text x="34" y="619">Student 1:</text>
-    <text x="58" y="652">Roll Number : 101</text>
-    <text x="58" y="685">Name        : Ananya</text>
-    <text x="58" y="718">Cut-off     : 189.50</text>
-    <text x="58" y="751">City        : Chennai</text>
-    <text x="58" y="784">Dream       : Engineer</text>
-    <text x="550" y="619">Student 2:</text>
-    <text x="574" y="652">Roll Number : 102</text>
-    <text x="574" y="685">Name        : Rahul</text>
-    <text x="574" y="718">Cut-off     : 176.25</text>
-    <text x="574" y="751">City        : Madurai</text>
-    <text x="574" y="784">Dream       : Doctor</text>
+  <path d="M1269 22h12M1308 13h13v17h-13zM1348 13h13M1348 30h13" fill="none" stroke="#222222" stroke-width="1.5"/>
+  <rect x="1336" y="2" width="40" height="40" fill="#e81123"/>
+  <path d="m1350 12 12 20m0-20-12 20" stroke="#ffffff" stroke-width="1.5"/>
+  <rect x="2" y="42" width="1372" height="724" fill="#000000"/>
+  <g fill="#f2f2f2" font-family="Consolas, 'Courier New', monospace" font-size="20">
+    <text x="2" y="72">C:\Users\Saba&gt;student_database.exe</text>
+    <text x="2" y="104">Enter the Student Count: 2</text>
+    <text x="2" y="140">--- Enter details for Student 1 ---</text>
+    <text x="2" y="172">Roll Number: 101</text><text x="2" y="204">Name: Ananya</text><text x="2" y="236">Cut-off: 189.50</text><text x="2" y="268">City: Chennai</text><text x="2" y="300">Dream: Engineer</text>
+    <text x="2" y="336">--- Enter details for Student 2 ---</text>
+    <text x="2" y="368">Roll Number: 102</text><text x="2" y="400">Name: Rahul</text><text x="2" y="432">Cut-off: 176.25</text><text x="2" y="464">City: Madurai</text><text x="2" y="496">Dream: Doctor</text>
+    <text x="2" y="540">-------------------------------- Student Details -------------------------------</text>
+    <text x="2" y="580">Student 1:</text><text x="26" y="612">Roll Number : 101</text><text x="26" y="644">Name        : Ananya</text><text x="26" y="676">Cut-off     : 189.50</text><text x="26" y="708">City        : Chennai</text><text x="26" y="740">Dream       : Engineer</text>
+    <text x="650" y="580">Student 2:</text><text x="674" y="612">Roll Number : 102</text><text x="674" y="644">Name        : Rahul</text><text x="674" y="676">Cut-off     : 176.25</text><text x="674" y="708">City        : Madurai</text><text x="674" y="740">Dream       : Doctor</text>
   </g>
 </svg>
