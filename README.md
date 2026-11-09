@@ -35,7 +35,7 @@ A collection of console-based programs written in **C** as part of my C programm
 
 ## 📁 Projects
 
-### 1. 🧮 CALCI.c — Calculator
+### 1. 🧮 [CALCI.c — Calculator](CALCI/README.md)
 
 A simple menu-driven calculator that performs basic arithmetic operations.
 
@@ -57,7 +57,7 @@ A simple menu-driven calculator that performs basic arithmetic operations.
 
 ---
 
-### 2. 🏧 atm.c — ATM Application
+### 2. 🏧 [atm.c — ATM Application](atm/README.md)
 
 A console-based ATM simulation with PIN authentication and account management.
 
@@ -80,7 +80,7 @@ A console-based ATM simulation with PIN authentication and account management.
 
 ---
 
-### 3. 🎓 student_database.c — Student Database
+### 3. 🎓 [student_database.c — Student Database](student_database/README.md)
 
 A console program that collects and displays details for a group of students. Each record contains a roll number, name, cut-off score, city, and dream/goal.
 
@@ -106,7 +106,7 @@ A console program that collects and displays details for a group of students. Ea
 
 ---
 
-### 4. 📝 FEEDBACK.C — Feedback File Program
+### 4. 📝 [FEEDBACK.C — Feedback File Program](FEEDBACK/README.md)
 
 A file-handling program that creates a feedback file, appends feedback about C programming classes, and reads the saved contents back to the terminal.
 
